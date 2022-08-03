@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 2rem;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    
+}
+
+.heading{
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.text{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 3rem;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+
+
+.first{
+    background-color:  hsl(31, 77%, 52%);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-bottom: 3rem;
+    
+}
+
+.second{
+    background-color:hsl(184, 100%, 22%);
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.third{
+    background-color: hsl(179, 100%, 13%);
+    width: 90%;
+    margin: 0 auto;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding-bottom: 3rem;
+}
+
+.btn{
+    
+    background-color: hsl(0, 0%, 95%);
+    padding: .75em 1.5em;
+    border-radius: 50px;
+}
+
+.btn__text__color__first{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn__text__color__second{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn__text__color__third{
+    color: hsl(179, 100%, 13%);
+}
+
+.btn:hover{
+    color:  hsl(0, 0%, 95%);
+    border: 2px solid  hsl(0, 0%, 95%);;
+    background-color: transparent;
+}
+
+
+@media (min-width: 921px) {
+    .main{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        max-width: 1300px;
+
+       
+    }
+
+    
+
+    .first{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1rem;
+        margin-top: 0;
+    }
+
+    .third{
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+        
+    }
+    
+   
+}
